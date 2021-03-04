@@ -1,0 +1,42 @@
+.heading-timer{
+  position :absolute;
+  top:50px;
+  left:720px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@1,100&display=swap");
+.start{
+  font-family: 'Times New Roman', Times, serif,cursive;
+  background-color: rgb(75, 72, 72);
+  color:white;
+height:30px;
+font-size:15px;
+border-radius:9px;
+border:1px;
+cursor:popinter;
+width:200 px;
+margin:4rem;
+height:60px;
+
+
+}
+.ball{
+  background-color: black;
+  box-shadow:0 10px 10px -6px;
+  position:absolute;
+  top:0;
+  left:0;
+  height:50px;
+  width:50px;
+  border-radius:25px;
+
+}
+.hole{
+  background-color: rgb(62, 85, 107);
+  /* box-shadow: 0 10px 10px 0px; */
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
